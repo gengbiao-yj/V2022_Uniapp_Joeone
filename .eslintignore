@@ -5,5 +5,8 @@
 *.png
 *.gif
 *.svg
-*vue.d.ts
+*.json
 node_modules
+src/uni_modules
+src/page.json
+dist

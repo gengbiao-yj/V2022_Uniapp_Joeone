@@ -13,10 +13,13 @@
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import UniCollapse from "@/uni_modules/uni-collapse/components/uni-collapse/uni-collapse.vue";
-import UniCollapseItem
-  from "@/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item.vue";
+import UniCollapse from '@/uni_modules/uni-collapse/components/uni-collapse/uni-collapse.vue';
+import UniCollapseItem from '@/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item.vue';
 const title = ref('Hello');
+const user = ref('11');
+const aa = () => {
+  console.log(user.value);
+};
 </script>
 
 <style lang="scss">
