@@ -6,7 +6,7 @@
       </uni-collapse-item>
     </uni-collapse>
     <view class="text-area">
-      <text class="title">{{ title }}</text>
+      <text class="title" @click="aa">{{ title }}</text>
     </view>
   </view>
 </template>

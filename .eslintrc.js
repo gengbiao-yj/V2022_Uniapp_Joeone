@@ -7,13 +7,12 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:vue/vue3-recommended',
-    'eslint:recommended',
-    '@vue/typescript/recommended',
     '@vue/prettier',
-    '@vue/prettier/@typescript-eslint',
-    // eslint-config-prettier 的缩写
-    'prettier'
+    '@vue/typescript/recommended',
+    'eslint:recommended',
+    'plugin:vue/vue3-recommended',
+    'plugin:vue/vue3-essential',
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
     ecmaVersion: 2021
@@ -34,7 +33,7 @@ module.exports = {
       }
     ], // 两个空格缩进
     quotes: [
-      2,
+      0,
       'single',
       {
         avoidEscape: true,
@@ -205,10 +204,8 @@ module.exports = {
       }
     ], // 在箭头函数中的箭头前后强制保持一致的间距
     'jsx-quotes': [2, 'prefer-single'], // 强制在 JSX 属性中一致地使用双引号或单引号
-    'no-array-constructor': 2, // 禁用 Array 构造函数
     'no-console': process.env.NODE_ENV === 'prod' ? 2 : 'off', // 禁用 console
     'no-global-assign': 2, // 不允许分配给本机对象或只读全局变量
-    'no-shadow-restricted-names': 2, // 禁止将标识符定义为受限的名字
     'no-spaced-func': 2, // 要求或禁止在函数标识符和其调用之间有空格
     // 'no-useless-constructor': 2, // 禁止不必要的构造函数
     'no-debugger': process.env.NODE_ENV === 'prod' ? 2 : 0, // 禁用 debugger
