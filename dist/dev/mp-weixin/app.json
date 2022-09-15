@@ -1,12 +1,41 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/HomePage",
+    "pages/index/ProjectList",
+    "pages/index/StoretList",
+    "pages/index/Personal"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "Joeone",
+    "navigationBarBackgroundColor": "#fff",
     "backgroundColor": "#F8F8F8"
   },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#646566",
+    "selectedColor": "#1989fa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/HomePage",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/ProjectList",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/index/StoretList",
+        "text": "门店"
+      },
+      {
+        "pagePath": "pages/index/Personal",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
   "usingComponents": {}
 }

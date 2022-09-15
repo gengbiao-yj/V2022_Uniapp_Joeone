@@ -7,7 +7,7 @@
   "setting": {
     "urlCheck": false,
     "coverView": true,
-    "es6": true,
+    "es6": false,
     "postcss": true,
     "lazyloadPlaceholderEnable": false,
     "preloadBackgroundData": false,
@@ -21,21 +21,22 @@
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "useStaticServer": true,
-    "showES6CompileOption": false,
+    "disableUseStrict": false,
+    "ignoreUploadUnusedFiles": true,
     "checkInvalidKey": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },
-    "disableUseStrict": false,
+    "useStaticServer": true,
+    "showES6CompileOption": false,
     "useCompilerPlugins": false,
     "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.26.0",
-  "appid": "wx16c6e1e0363abb42",
+  "libVersion": "2.25.4",
+  "appid": "touristappid",
   "projectname": "",
   "condition": {},
   "editorSetting": {

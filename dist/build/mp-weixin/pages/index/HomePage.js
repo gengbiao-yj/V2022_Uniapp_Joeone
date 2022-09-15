@@ -1,0 +1,1 @@
+"use strict";var e=require("../../common/vendor.js");Math||(o+n)();const n=()=>"../../uni_modules/uni-collapse/components/uni-collapse/uni-collapse.js",o=()=>"../../uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item.js",s=e.defineComponent({__name:"HomePage",setup:n=>(n,o)=>({a:e.p({title:"图片",open:!0})})});wx.createPage(s);

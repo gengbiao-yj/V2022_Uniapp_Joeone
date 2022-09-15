@@ -2,7 +2,10 @@
 Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
 var common_vendor = require("./common/vendor.js");
 if (!Math) {
-  "./pages/index/index.js";
+  "./pages/index/HomePage.js";
+  "./pages/index/ProjectList.js";
+  "./pages/index/StoretList.js";
+  "./pages/index/Personal.js";
 }
 const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
   __name: "App",
@@ -20,11 +23,13 @@ const _sfc_main = /* @__PURE__ */ common_vendor.defineComponent({
     };
   }
 });
-var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/\u8D44\u6599/GB_V2022/vue3-vite-uniapp/src/App.vue"]]);
+var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "D:/\u8D44\u6599/GB-2022/Uniapp_Joeone/src/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
+  app.use(common_vendor.createPinia());
   return {
-    app
+    app,
+    Pinia: common_vendor.Pinia
   };
 }
 createApp().app.mount("#app");

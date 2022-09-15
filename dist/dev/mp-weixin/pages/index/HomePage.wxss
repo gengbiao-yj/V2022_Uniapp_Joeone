@@ -29,19 +29,21 @@
   align-items: center;
   justify-content: center;
 }
+.content .uni-collapse {
+  width: 100%;
+}
 .logo {
   height: 200rpx;
   width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
+  margin: 200rpx auto 50rpx;
 }
-.text-area {
-  display: flex;
-  justify-content: center;
-}
-.title {
-  font-size: "36rpx";
-  color: #8f8f94;
+.button {
+  width: 100rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 24px;
+  border: 1px solid #666666;
+  border-radius: 10rpx;
+  background-color: aliceblue;
+  font-weight: 600;
 }

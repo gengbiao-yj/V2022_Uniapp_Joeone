@@ -1,16 +1,46 @@
 {
-  "pages": [
-    {
-      "path": "pages/index/HomePage",
-      "style": {
-        "navigationBarTitleText": "uni-app"
-      }
-    }
-  ],
-  "globalStyle": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  }
+	"pages": [{
+			"path": "pages/index/HomePage"
+		},
+		{
+			"path": "pages/index/ProjectList"
+		},
+		{
+			"path": "pages/index/StoretList"
+		},
+		{
+			"path": "pages/index/Personal"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Joeone",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"color": "#646566",
+		"selectedColor": "#1989fa",
+		"position": "bottom",
+		"fontSize": "10px",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/HomePage",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/ProjectList",
+				"text": "项目"
+			},
+			{
+				"pagePath": "pages/index/StoretList",
+				"text": "门店"
+			},
+			{
+				"pagePath": "pages/index/Personal",
+				"text": "我的"
+			}
+		]
+	}
 }

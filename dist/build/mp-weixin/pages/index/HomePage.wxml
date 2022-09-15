@@ -1,0 +1,1 @@
+<view class="content"><uni-collapse u-s="{{['d']}}" style="width:100%" u-i="e358742c-0" bind:__l="__l"><uni-collapse-item wx:if="{{a}}" u-s="{{['d']}}" u-i="e358742c-1,e358742c-0" bind:__l="__l" u-p="{{a}}"><image class="logo" src="/static/logo.png"/></uni-collapse-item></uni-collapse></view>
