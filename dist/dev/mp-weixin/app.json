@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/index/Login",
     "pages/index/HomePage",
     "pages/index/ProjectList",
     "pages/index/StoretList",
@@ -37,5 +38,6 @@
     ]
   },
   "permission": {},
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

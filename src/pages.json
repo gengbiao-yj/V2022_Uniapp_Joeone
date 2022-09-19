@@ -1,5 +1,11 @@
 {
 	"pages": [{
+			"path": "pages/index/Login",
+			"style": {
+				"enablePullDownRefresh": false
+			}
+		},
+		{
 			"path": "pages/index/HomePage"
 		},
 		{
